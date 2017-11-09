@@ -10,6 +10,7 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="Simple_Encrypter_Java_main" />
+    <orderEntry type="library" name="Gradle: com.github.jlarrieux:numeric-validator:1.1-rc" level="project" />
     <orderEntry type="library" name="Gradle: com.google.guava:guava:21.0" level="project" />
     <orderEntry type="library" name="Gradle: com.jfoenix:jfoenix:1.10.0" level="project" />
     <orderEntry type="library" name="Gradle: org.spockframework:spock-core:1.1-groovy-2.4" level="project" />

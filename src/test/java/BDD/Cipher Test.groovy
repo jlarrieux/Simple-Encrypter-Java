@@ -10,7 +10,7 @@ class CipherTest  extends Specification{
     String algorithm, encrypted, decrypted;
 
     def "test blowfish"(){
-        given: "Blowfish algorithm and a key and a string to encrypt"
+        given: "Blowfish algorithmComboBox and a key and a string to encrypt"
         algorithm = Cryptographer.CIPHER.BLOWFISH
         print(KEY.length())
 
@@ -26,7 +26,7 @@ class CipherTest  extends Specification{
 
 
     def "test AES"(){
-        given: "Blowfish algorithm and a key and a string to encrypt"
+        given: "Blowfish algorithmComboBox and a key and a string to encrypt"
         algorithm = Cryptographer.CIPHER.AES
         print(KEY.length())
 
@@ -41,7 +41,7 @@ class CipherTest  extends Specification{
     }
 
     def "test RC2"(){
-        given: "Blowfish algorithm and a key and a string to encrypt"
+        given: "Blowfish algorithmComboBox and a key and a string to encrypt"
         algorithm = Cryptographer.CIPHER.RC2
         print(KEY.length())
 
@@ -57,7 +57,7 @@ class CipherTest  extends Specification{
 
 
     def "test RC4"(){
-        given: "Blowfish algorithm and a key and a string to encrypt"
+        given: "Blowfish algorithmComboBox and a key and a string to encrypt"
         algorithm = Cryptographer.CIPHER.RC4
         print(KEY.length())
 

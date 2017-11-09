@@ -26,6 +26,7 @@ dependencies {
     compile 'com.jfoenix:jfoenix:1.+'
     compileOnly 'org.projectlombok:lombok:1.+'
     testCompile "org.spockframework:spock-core:1.1-groovy-2.4"
+    compile 'com.github.jlarrieux:numeric-validator:1.+'
 
     // Use JUnit test framework
     testCompile 'junit:junit:4.12'
